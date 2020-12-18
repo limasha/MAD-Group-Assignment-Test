@@ -15,6 +15,8 @@ public class CatActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cat);
+        getSupportActionBar().setTitle("Categories");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         cpp= findViewById(R.id.cpp);
         c= findViewById(R.id.c);
@@ -30,7 +32,7 @@ public class CatActivity extends AppCompatActivity {
         cpp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(CatActivity.this, QuestionVActivity.class);
+                Intent intent = new Intent(CatActivity.this, SetVActivity.class);
                 startActivity(intent);
             }
         });
@@ -38,14 +40,14 @@ public class CatActivity extends AppCompatActivity {
         c.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(CatActivity.this, QuestionKActivity.class);
+                Intent intent = new Intent(CatActivity.this, SetKActivity.class);
                 startActivity(intent);
             }
         });
         c_sharp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(CatActivity.this, QuestionLActivity.class);
+                Intent intent = new Intent(CatActivity.this, SetLActivity.class);
                 startActivity(intent);
             }
         });
@@ -53,7 +55,7 @@ public class CatActivity extends AppCompatActivity {
         java.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(CatActivity.this, QuestionActivity.class);
+                Intent intent = new Intent(CatActivity.this, SetActivity.class);
                 startActivity(intent);
             }
         });
@@ -61,14 +63,14 @@ public class CatActivity extends AppCompatActivity {
         ruby.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(CatActivity.this, QuestionTActivity.class);
+                Intent intent = new Intent(CatActivity.this, SetTActivity.class);
                 startActivity(intent);
             }
         });
         python.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(CatActivity.this, QuestionDActivity.class);
+                Intent intent = new Intent(CatActivity.this, SetDActivity.class);
                 startActivity(intent);
             }
         });
