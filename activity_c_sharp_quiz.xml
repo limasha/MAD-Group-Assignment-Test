@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CSharpQuiz"
+    android:background="@drawable/main_background">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#FFEB3B"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C# QUIZ"
+        android:textSize="40sp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/imageview_logo"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/imageview_c_sharp_logo"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/c_sharp_logo" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/view"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Level 01"
+        android:textSize="25sp"
+        android:textColor="@color/buttonColor"
+        android:background="@drawable/level_button"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/button1"
+        android:layout_marginTop="30dp"
+        android:layout_alignLeft="@id/button1"
+        android:layout_alignRight="@id/button1"
+        android:text="Level 02"
+        android:textSize="25sp"
+        android:textColor="@color/buttonColor"
+        android:background="@drawable/level_button"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/button2"
+        android:layout_marginTop="30dp"
+        android:layout_alignLeft="@id/button1"
+        android:layout_alignRight="@id/button1"
+        android:text="Level 03"
+        android:textSize="25sp"
+        android:textColor="@color/buttonColor"
+        android:background="@drawable/level_button"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/button3"
+        android:layout_marginTop="30dp"
+        android:layout_alignLeft="@id/button1"
+        android:layout_alignRight="@id/button1"
+        android:text="Level 04"
+        android:textSize="25sp"
+        android:textColor="@color/buttonColor"
+        android:background="@drawable/level_button"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/button4"
+        android:layout_marginTop="30dp"
+        android:layout_alignLeft="@id/button1"
+        android:layout_alignRight="@id/button1"
+        android:text="Level 05"
+        android:textSize="25sp"
+        android:textColor="@color/buttonColor"
+        android:background="@drawable/level_button"/>
+
+</RelativeLayout>
