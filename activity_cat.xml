@@ -7,6 +7,8 @@
     android:background="@drawable/main_background"
     tools:context=".CatActivity">
 
+
+
     <ImageButton
         android:id="@+id/java"
         android:layout_width="170dp"
