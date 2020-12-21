@@ -7,6 +7,7 @@
     android:background="@drawable/main_background"
     tools:context=".MainActivity">
 
+
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="218dp"
