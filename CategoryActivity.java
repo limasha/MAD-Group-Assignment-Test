@@ -6,8 +6,6 @@ import androidx.appcompat.widget.Toolbar;
 
 import android.os.Bundle;
 import android.widget.GridView;
-
-
 import java.util.ArrayList;
 import java.util.List;
 import static com.example.quizapp.SplashActivity.catList;
