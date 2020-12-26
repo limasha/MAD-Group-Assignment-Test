@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddQuestion1">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#9C27B0"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question 01"
+        android:textSize="30sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#FBFAFD"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textview_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:text="Question"
+        android:textSize="28sp"
+        android:textColor="@color/colorPrimary"/>
+
+    <EditText
+        android:id="@+id/editview_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview_question"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:inputType="text"
+        android:backgroundTint="@color/buttonColor"/>
+
+    <TextView
+        android:id="@+id/textview_option1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editview_question"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Option 1"
+        android:textSize="28sp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <EditText
+        android:id="@+id/editview_option1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview_option1"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:inputType="text"
+        android:backgroundTint="@color/buttonColor"/>
+
+    <TextView
+        android:id="@+id/textview_option2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editview_option1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:text="Option 2"
+        android:textSize="28sp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <EditText
+        android:id="@+id/editview_option2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview_option2"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:inputType="text"
+        android:backgroundTint="@color/buttonColor"/>
+
+    <TextView
+        android:id="@+id/textview_option3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editview_option2"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:text="Option 3"
+        android:textSize="28sp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <EditText
+        android:id="@+id/editview_option3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview_option3"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:inputType="text"
+        android:backgroundTint="@color/buttonColor"/>
+
+    <TextView
+        android:id="@+id/textview_option4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editview_option3"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:text="Option 4"
+        android:textSize="28sp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <EditText
+        android:id="@+id/editview_option4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview_option4"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:inputType="text"
+        android:backgroundTint="@color/buttonColor"/>
+
+    <TextView
+        android:id="@+id/textview_answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editview_option4"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:text="Answer"
+        android:textSize="28sp"
+        android:textColor="@color/colorPrimary"/>
+
+    <EditText
+        android:id="@+id/editview_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview_answer"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:inputType="text"
+        android:backgroundTint="@color/buttonColor"/>
+
+    <Button
+        android:id="@+id/button_level"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="#9C27B0"
+        android:text="Insert question"
+        android:textColor="#FBFAFD"
+        android:textSize="30sp"/>
+
+</RelativeLayout>
