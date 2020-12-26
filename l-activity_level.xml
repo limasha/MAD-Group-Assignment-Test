@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LevelActivity"
+    android:background="@drawable/main_background">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#9C27B0"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C# Quiz Levels"
+        android:textSize="30sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#FBFAFD"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/delete_button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@id/button1"
+        android:background="@drawable/ic_baseline_delete_24"/>
+
+    <ImageView
+        android:id="@+id/delete_button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@id/button2"
+        android:background="@drawable/ic_baseline_delete_24"/>
+
+    <ImageView
+        android:id="@+id/delete_button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@id/button3"
+        android:background="@drawable/ic_baseline_delete_24"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/view"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="30dp"
+        android:text="Level 01"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/button1"
+        android:layout_marginTop="30dp"
+        android:layout_alignLeft="@id/button1"
+        android:layout_alignRight="@id/button1"
+        android:text="Level 02"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/button2"
+        android:layout_marginTop="30dp"
+        android:layout_alignLeft="@id/button1"
+        android:layout_alignRight="@id/button1"
+        android:text="Level 03"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/button_level"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="#9C27B0"
+        android:text="Add new level"
+        android:textColor="#FBFAFD"
+        android:textSize="30sp"/>
+
+</RelativeLayout>
