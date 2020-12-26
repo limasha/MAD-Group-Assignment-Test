@@ -8,9 +8,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-
-
-
 public class MainActivity extends AppCompatActivity {
     private TextView title;
     private Button start,admin;
@@ -29,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         start.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, CatActivity.class);
+                Intent intent = new Intent(MainActivity.this, CategoryActivity.class);
                 startActivity(intent);
             }
         });
