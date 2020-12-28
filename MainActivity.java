@@ -9,35 +9,23 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-    private TextView title;
-    private Button start,admin;
+    private TextView appName;
+    private Button start;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        title = findViewById(R.id.main_title);
-        start = findViewById(R.id.ma_startB);
-        admin=  findViewById(R.id.admin);
-
-
+        appName = findViewById(R.id.AppName);
+        start = findViewById(R.id.start_button);
 
         start.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, CategoryActivity.class);
+                Intent intent = new Intent(MainActivity.this, Category_activity_k.class);
                 startActivity(intent);
             }
         });
-        admin.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, MainAdminActivity.class);
-                startActivity(intent);
-            }
-        });
-
 
     }
 }
