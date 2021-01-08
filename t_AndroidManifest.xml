@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.quiz_app">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Quiz_App">
+        
+        <activity android:name=".activity_set_t"> </activity>
+        
+        <activity android:name=".activity_que_t"
+            tools:ignore="Instantiatable" />
+        
+        <activity android:name=".activity_score_t"
+            tools:ignore="Instantiatable" />
+        
+            <activity android:name=".activity_cat_t"/>
+        
+        <activity android:name="Question_t_Ruby"
+            tools:ignore="Instantiatable" />
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+       
+    </application>
+
+</manifest>
