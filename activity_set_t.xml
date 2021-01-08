@@ -10,7 +10,8 @@
     android:layout_marginBottom="10dp"
     android:background="#42BEF6"
     android:backgroundTint="#56AFF6"
-    tools:context=".MainActivity">
+    android:context=".activity_set_t"
+    >
 
     <androidx.constraintlayout.utils.widget.ImageFilterView
         android:id="@+id/imageFilterView"
@@ -32,9 +33,10 @@
         android:layout_width="145dp"
         android:layout_height="150dp"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="108dp"
         android:layout_marginEnd="50dp"
         app:layout_constraintEnd_toEndOf="@+id/textView4"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
         app:srcCompat="@drawable/ruby" />
@@ -102,5 +104,17 @@
         app:layout_constraintStart_toEndOf="@+id/imageFilterView"
         app:layout_constraintTop_toTopOf="parent"
         tools:text="           Ruby Quiz" />
+
+    <GridView
+        android:id="@+id/list_grid_view"
+        android:layout_width="389dp"
+        android:layout_height="714dp"
+        android:layout_weight="1"
+        android:columnWidth="100dp"
+        android:gravity="center_horizontal"
+        android:numColumns="auto_fit"
+        tools:ignore="InvalidId"
+        tools:layout_editor_absoluteY="-2dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
