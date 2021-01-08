@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginBottom="10dp"
-        android:background="#4AC2F8"
-        android:backgroundTint="#55C9FD"
-        android:textAlignment="center"
-        tools:ignore="ExtraText">
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Question"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="10dp"
+    android:background="#4AC2F8"
+    android:backgroundTint="#55C9FD"
+    android:textAlignment="center"
+    tools:ignore="ExtraText"
+    android:context=".activity_que_t,.Question_t_Ruby"
+
+    >
 
 
     <TextView
@@ -69,7 +73,7 @@
         android:layout_marginBottom="30dp"
         android:background="#607E8C"
         android:fontFamily="sans-serif-black"
-        android:text="      Time: 00:00:00"
+        android:text="      Time: 00"
         android:textColor="#090000"
         android:textSize="16dp"
         app:layout_constraintBottom_toTopOf="@+id/textView2"
@@ -158,7 +162,7 @@
         tools:text="    129" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/Button1"
         android:layout_width="152dp"
         android:layout_height="69dp"
         android:layout_marginStart="20dp"
@@ -171,7 +175,7 @@
         tools:text=" Confirm" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/CancelBtn"
         android:layout_width="152dp"
         android:layout_height="69dp"
         android:layout_marginStart="10dp"
@@ -179,7 +183,7 @@
         android:fontFamily="sans-serif-black"
         android:text="Cancel"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        app:layout_constraintStart_toEndOf="@+id/button3"
+        app:layout_constraintStart_toEndOf="@+id/Button1"
         app:layout_constraintTop_toBottomOf="@+id/checkBox5"
         tools:text=" Cancel" /><![CDATA[
 
