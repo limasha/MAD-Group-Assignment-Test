@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizLevel2"
+    android:background="@drawable/main_background">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#FFEB3B"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/textviewlevel2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LEVEL 02"
+        android:textSize="40sp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/buttonColor"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/imageview_logo"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/imageview_c_sharp_logo"
+        android:layout_width="185dp"
+        android:layout_height="201dp"
+        android:layout_below="@id/view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/c_sharp_logo"/>
+
+    <TextView
+        android:id="@+id/highscore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Highscore: 0"
+        android:textSize="35sp"
+        android:textColor="#2E2A2A"
+        android:textStyle="bold"
+        android:layout_below="@id/imageview_c_sharp_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/button_start"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/round_corner"
+        android:text="Start Quiz"
+        android:textSize="25sp"
+        android:textColor="@color/buttonColor"
+        android:layout_below="@id/highscore"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"/>
+
+
+</RelativeLayout>
