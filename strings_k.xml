@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="todo">todo</string>
+    <string name="quiz_hub">Quiz Hub</string>
+    <string name="start">start</string>
+    <string name="java">Java</string>
+    <string name="cat_01">cat 01</string>
+</resources>
